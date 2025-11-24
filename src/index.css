@@ -712,6 +712,10 @@
     min-width: 1px;
   }
 
+  .flex-1 {
+    flex: 1;
+  }
+
   .shrink-0 {
     flex-shrink: 0;
   }
@@ -1144,10 +1148,6 @@
     padding-top: 32px;
   }
 
-  .pr-\[48px\] {
-    padding-right: 48px;
-  }
-
   .pb-0 {
     padding-bottom: calc(var(--spacing) * 0);
   }
@@ -1162,10 +1162,6 @@
 
   .pb-\[64px\] {
     padding-bottom: 64px;
-  }
-
-  .pl-\[48px\] {
-    padding-left: 48px;
   }
 
   .text-center {
@@ -1993,12 +1989,6 @@
   @media (width >= 64rem) {
     .lg\:px-0 {
       padding-inline: calc(var(--spacing) * 0);
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:px-\[104px\] {
-      padding-inline: 104px;
     }
   }
 

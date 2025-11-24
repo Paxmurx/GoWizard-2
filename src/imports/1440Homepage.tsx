@@ -561,6 +561,7 @@ function Container1() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut", delay: 0.5 }}
+        className="flex-1"
       >
         <IconGridCard />
       </motion.div>
@@ -568,6 +569,7 @@ function Container1() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut", delay: 0.6 }}
+        className="flex-1"
       >
         <IconGridCard1 />
       </motion.div>
@@ -575,6 +577,7 @@ function Container1() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
+        className="flex-1"
       >
         <IconGridCard2 />
       </motion.div>
@@ -7325,7 +7328,7 @@ function Section() {
         className="absolute border-[0px_0px_1px] border-[rgba(0,0,0,0.08)] border-solid inset-0 pointer-events-none"
       />
       <div className="flex flex-col items-center size-full">
-        <div className="box-border content-stretch flex flex-col gap-[48px] md:gap-[80px] lg:gap-[104px] items-center md:pb-[64px] lg:pb-[80px] md:pt-[32px] lg:pt-[40px] px-[24px] md:px-[48px] lg:px-[104px] relative w-full pt-[32px] pr-[48px] pb-[64px] pl-[48px]">
+        <div className="box-border content-stretch flex flex-col gap-[48px] md:gap-[80px] lg:gap-[104px] items-center md:pb-[64px] lg:pb-[80px] md:pt-[32px] lg:pt-[40px] relative w-full pt-[32px] pb-[64px]">
           <Container4 />
           <Container12 />
           <Container14 />
